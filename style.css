@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DynaPuff&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DynaPuff', cursive;
+    color: #ffffff;
+}
+body{
+    background-color: #000000;
+}
+h1{
+    font-size: 10vh;
+    color: #ffffff;
+}
+h2{
+    font-size: 20vh;
+    color: #ffffff;
+}
+p{
+    margin-top: 4vh;
+    font-size: 6vh;
+    color: #ffffff;
+}
+.big-container{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    
+}
+#save-btn{
+    font-size: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+button{
+    background-color: #ffffff;
+    color:#000000;
+    font-size: 10vh;
+    margin: 3vh;
+    padding-left:4vh;
+    padding-right:4vh;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+button:hover{
+    background-color:#f722229c;
+    transition:ease-in-out 0.3s;
+}
